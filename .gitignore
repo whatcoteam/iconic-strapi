@@ -107,13 +107,13 @@ coverage
 ############################
 
 exports
-.cache
 build
 
 # Custom
 
 .vscode
 .next
+.tmp
 .env.*
 .env
 !.env.example
