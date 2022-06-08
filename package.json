@@ -21,7 +21,7 @@
     "strapi-plugin-slugify": "2.2.2"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Amir Mahmoudi<Amixengineer@gmail.com>"
   },
   "strapi": {
     "uuid": "aa9da054-f617-41f3-8ccf-1c7527a2a49f"
