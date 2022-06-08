@@ -16,6 +16,7 @@
     "@strapi/strapi": "4.1.9",
     "better-sqlite3": "7.4.6",
     "pg": "8.7.3",
+    "strapi-plugin-navigation": "^2.1.0-beta.2",
     "strapi-plugin-slugify": "2.2.2"
   },
   "author": {
