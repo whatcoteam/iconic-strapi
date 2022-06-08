@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_block_hero_images",
+  "info": {
+    "displayName": "heroImages",
+    "icon": "border-none"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

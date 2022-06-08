@@ -1,0 +1,67 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "product": {
+      "type": "dynamiczone",
+      "components": [
+        "card.product"
+      ],
+      "required": false
+    },
+    "heroImages": {
+      "type": "component",
+      "repeatable": true,
+      "min": 10,
+      "max": 10,
+      "component": "block.hero-images"
+    },
+    "heroTitle": {
+      "type": "richtext",
+      "required": true
+    },
+    "button": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": false,
+      "component": "item.button"
+    },
+    "heroDescription": {
+      "type": "richtext",
+      "required": true
+    },
+    "abouUsTitle": {
+      "type": "string",
+      "required": true,
+      "default": "about us"
+    },
+    "aboutUsCardTitle": {
+      "type": "string",
+      "required": true,
+      "default": "iconic taste"
+    },
+    "aboutUsSummary": {
+      "type": "text",
+      "required": true,
+      "maxLength": 390
+    },
+    "aboutUsImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

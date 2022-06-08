@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "About iconic taste"
+    },
+    "contactInfo": {
+      "type": "dynamiczone",
+      "components": [
+        "item.text-title-item"
+      ],
+      "required": true,
+      "min": 1
+    },
+    "companyProfile": {
+      "type": "dynamiczone",
+      "components": [
+        "card.about-card"
+      ],
+      "required": true,
+      "min": 1
+    },
+    "companyProfileTitle": {
+      "type": "string",
+      "required": true
+    },
+    "gmap": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

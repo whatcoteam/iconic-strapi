@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_block_list_items",
+  "info": {
+    "displayName": "ListItem",
+    "icon": "list-ul",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "itemName": {
+      "type": "string",
+      "maxLength": 35,
+      "required": true
+    },
+    "itemUrl": {
+      "type": "component",
+      "repeatable": true,
+      "component": "item.url"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_card_products",
+  "info": {
+    "displayName": "product",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "unique": false,
+      "maxLength": 250
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "category": {
+      "type": "component",
+      "repeatable": false,
+      "component": "item.button",
+      "required": true
+    },
+    "allProducts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "item.button",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_item_title_description_items",
+  "info": {
+    "displayName": "titleDescriptionItem",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

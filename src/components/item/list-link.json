@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_item_list_links",
+  "info": {
+    "displayName": "ListLink",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "itemName": {
+      "type": "string",
+      "required": true
+    },
+    "itemUrl": {
+      "type": "component",
+      "repeatable": true,
+      "component": "item.url"
+    }
+  }
+}

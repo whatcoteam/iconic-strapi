@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_item_urls",
+  "info": {
+    "displayName": "url",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

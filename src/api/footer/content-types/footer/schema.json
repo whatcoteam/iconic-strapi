@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "copyRight": {
+      "type": "text",
+      "required": true,
+      "default": "All Rights Reserved ©️ 2021 - Iconic taste"
+    },
+    "firstListItem": {
+      "type": "component",
+      "repeatable": false,
+      "component": "item.list-item",
+      "required": true
+    },
+    "secondListItem": {
+      "type": "component",
+      "repeatable": false,
+      "component": "item.list-link"
+    },
+    "thirdListItem": {
+      "type": "component",
+      "repeatable": false,
+      "component": "item.list-link"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_item_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "circle"
+  },
+  "options": {},
+  "attributes": {
+    "buttonText": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

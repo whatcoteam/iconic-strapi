@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_item_product_sizes",
+  "info": {
+    "displayName": "productInfo",
+    "icon": "project-diagram",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "product_sizes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product-size.product-size"
+    },
+    "product_infos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product-info.product-info"
+    }
+  }
+}
