@@ -14,14 +14,13 @@
     "@strapi/plugin-i18n": "4.1.9",
     "@strapi/plugin-users-permissions": "4.1.9",
     "@strapi/strapi": "4.1.9",
-    "better-sqlite3": "7.4.6",
     "pg": "8.7.3",
-    "strapi-plugin-navigation": "2.1.0-beta.2",
+    "strapi-plugin-navigation": "2.0.13",
     "strapi-plugin-slugify": "2.2.2",
     "yup": "0.32.11"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Amir Mahmoudi<amixengineer@gmail.com>"
   },
   "strapi": {
     "uuid": "aa9da054-f617-41f3-8ccf-1c7527a2a49f"
