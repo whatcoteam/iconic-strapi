@@ -33,6 +33,10 @@ module.exports = ({ env }) => ({
           field: "slug",
           references: "name",
         },
+        // navigation: {
+        //   field: "slug",
+        //   references: "name",
+        // },
       },
     },
   },

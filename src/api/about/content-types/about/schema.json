@@ -38,7 +38,7 @@
       "required": true
     },
     "gmap": {
-      "type": "string",
+      "type": "text",
       "required": true
     }
   }
