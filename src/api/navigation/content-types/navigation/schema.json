@@ -33,6 +33,12 @@
       "relation": "oneToMany",
       "target": "api::navigation.navigation",
       "mappedBy": "parent"
+    },
+    "order": {
+      "type": "integer",
+      "default": 1,
+      "unique": false,
+      "required": true
     }
   }
 }
