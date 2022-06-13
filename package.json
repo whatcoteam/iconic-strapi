@@ -15,7 +15,6 @@
     "@strapi/plugin-users-permissions": "4.1.9",
     "@strapi/strapi": "4.1.9",
     "pg": "8.7.3",
-    "strapi-plugin-navigation": "2.0.13",
     "strapi-plugin-slugify": "2.2.2",
     "yup": "0.32.11"
   },
