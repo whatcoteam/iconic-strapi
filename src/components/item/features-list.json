@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_item_features_lists",
+  "info": {
+    "displayName": "featuresList",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "string"
+    }
+  }
+}

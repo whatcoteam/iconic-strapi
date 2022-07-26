@@ -51,7 +51,8 @@
       "type": "dynamiczone",
       "components": [
         "item.title-description-item"
-      ]
+      ],
+      "required": true
     }
   }
 }

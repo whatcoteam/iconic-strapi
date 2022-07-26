@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_card_coffee_cards",
+  "info": {
+    "displayName": "coffeeCard",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "coffeeFeature": {
+      "displayName": "featuresList",
+      "type": "component",
+      "repeatable": true,
+      "component": "item.features-list"
+    },
+    "coffeePage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "item.button"
+    },
+    "coffeeImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

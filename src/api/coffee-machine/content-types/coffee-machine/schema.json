@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "coffee_machines",
+  "info": {
+    "singularName": "coffee-machine",
+    "pluralName": "coffee-machines",
+    "displayName": "Coffee Machine",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "coffeeCard": {
+      "type": "dynamiczone",
+      "components": [
+        "card.coffee-card"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "videobc": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "exploreCoffeeMachines": {
+      "type": "component",
+      "repeatable": false,
+      "component": "item.button"
+    }
+  }
+}
