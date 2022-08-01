@@ -6,16 +6,5 @@
     "description": ""
   },
   "options": {},
-  "attributes": {
-    "product_sizes": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::product-size.product-size"
-    },
-    "product_infos": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::product-info.product-info"
-    }
-  }
+  "attributes": {}
 }

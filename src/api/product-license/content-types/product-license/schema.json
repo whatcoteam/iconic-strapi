@@ -1,18 +1,17 @@
 {
   "kind": "collectionType",
-  "collectionName": "product_sizes",
+  "collectionName": "product_licenses",
   "info": {
-    "singularName": "product-size",
-    "pluralName": "product-sizes",
-    "displayName": "Product Size",
-    "description": ""
+    "singularName": "product-license",
+    "pluralName": "product-licenses",
+    "displayName": "Product License"
   },
   "options": {
     "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "size": {
+    "name": {
       "type": "string",
       "required": true
     },
@@ -20,7 +19,7 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::product.product",
-      "inversedBy": "product_sizes"
+      "inversedBy": "product_licenses"
     }
   }
 }

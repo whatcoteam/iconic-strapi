@@ -15,11 +15,6 @@
     "name": {
       "type": "string"
     },
-    "productInfo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "item.product-size"
-    },
     "notice": {
       "type": "richtext"
     },
@@ -53,6 +48,18 @@
         "item.title-description-item"
       ],
       "required": true
+    },
+    "product_licenses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product-license.product-license",
+      "mappedBy": "product"
+    },
+    "product_sizes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product-size.product-size",
+      "mappedBy": "product"
     }
   }
 }
