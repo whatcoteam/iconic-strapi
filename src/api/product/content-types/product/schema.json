@@ -21,7 +21,7 @@
     "productImages": {
       "type": "media",
       "multiple": true,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
@@ -47,7 +47,7 @@
       "components": [
         "item.title-description-item"
       ],
-      "required": true
+      "required": false
     },
     "product_licenses": {
       "type": "relation",

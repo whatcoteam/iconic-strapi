@@ -23,6 +23,9 @@ module.exports = ({ env }) => [
           upgradeInsecureRequests: null,
         },
       },
+      providerOptions: {
+        sizeLimit: 250 * 1024 * 1024, // 256mb in bytes
+      },
     },
   },
   "strapi::cors",
