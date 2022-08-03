@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product-license",
     "pluralName": "product-licenses",
-    "displayName": "Product License"
+    "displayName": "Product License",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -15,9 +16,9 @@
       "type": "string",
       "required": true
     },
-    "product": {
+    "products": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::product.product",
       "inversedBy": "product_licenses"
     }

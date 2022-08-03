@@ -33,10 +33,10 @@ module.exports = ({ env }) => [
     name: "strapi::body",
     config: {
       jsonLimit: "256mb",
-      formLimit: "256mb", // modify form body
-      textLimit: "256mb", // modify text body
+      formLimit: "256mb",
+      textLimit: "256mb",
       formidable: {
-        maxFileSize: 200 * 1024 * 1024, // multipart data, modify here limit of uploaded file size
+        maxFileSize: 200 * 1024 * 1024,
       },
     },
   },

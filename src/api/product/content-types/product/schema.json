@@ -51,15 +51,15 @@
     },
     "product_licenses": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::product-license.product-license",
-      "mappedBy": "product"
+      "mappedBy": "products"
     },
     "product_sizes": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::product-size.product-size",
-      "mappedBy": "product"
+      "inversedBy": "products"
     }
   }
 }
