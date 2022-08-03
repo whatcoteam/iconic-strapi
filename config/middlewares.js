@@ -23,9 +23,6 @@ module.exports = ({ env }) => [
           upgradeInsecureRequests: null,
         },
       },
-      providerOptions: {
-        sizeLimit: 250 * 1024 * 1024, // 256mb in bytes
-      },
     },
   },
   "strapi::cors",
@@ -35,7 +32,12 @@ module.exports = ({ env }) => [
   {
     name: "strapi::body",
     config: {
-      jsonLimit: "10mb",
+      jsonLimit: "256mb",
+      formLimit: "256mb", // modify form body
+      textLimit: "256mb", // modify text body
+      formidable: {
+        maxFileSize: 200 * 1024 * 1024, // multipart data, modify here limit of uploaded file size
+      },
     },
   },
   "strapi::session",
