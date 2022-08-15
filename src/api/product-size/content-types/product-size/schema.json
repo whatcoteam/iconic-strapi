@@ -20,7 +20,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::product.product",
-      "inversedBy": "product_sizes"
+      "mappedBy": "product_sizes"
     }
   }
 }
