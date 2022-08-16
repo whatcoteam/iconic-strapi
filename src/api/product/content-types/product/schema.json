@@ -60,6 +60,15 @@
       "component": "item.title-description-item",
       "required": true,
       "min": 1
+    },
+    "metaTitle": {
+      "type": "text"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "keywords": {
+      "type": "text"
     }
   }
 }

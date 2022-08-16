@@ -23,9 +23,21 @@
         "images"
       ]
     },
-    "siteDescription": {
+    "metaDescription": {
       "type": "text",
       "unique": false,
+      "required": true
+    },
+    "metaTitle": {
+      "type": "string",
+      "required": true
+    },
+    "sharedImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
       "required": true
     }
   }
