@@ -31,12 +31,6 @@
       "repeatable": false,
       "component": "item.button",
       "required": true
-    },
-    "allProducts": {
-      "type": "component",
-      "repeatable": false,
-      "component": "item.button",
-      "required": true
     }
   }
 }
