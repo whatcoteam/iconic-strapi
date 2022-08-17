@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_block_block_coffee_overviews",
+  "info": {
+    "displayName": "block.coffeeOverview",
+    "icon": "box"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

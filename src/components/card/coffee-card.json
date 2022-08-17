@@ -12,7 +12,7 @@
       "required": true,
       "unique": false
     },
-    "description": {
+    "summary": {
       "type": "richtext"
     },
     "coffeeFeature": {
@@ -21,11 +21,6 @@
       "repeatable": true,
       "component": "item.features-list"
     },
-    "coffeePage": {
-      "type": "component",
-      "repeatable": false,
-      "component": "item.button"
-    },
     "coffeeImage": {
       "type": "media",
       "multiple": true,
@@ -33,6 +28,33 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "coffeeMachineOverview": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.block-coffee-overview",
+      "min": 1
+    },
+    "brochure": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "userManual": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "completeDescription": {
+      "type": "richtext"
     }
   }
 }
