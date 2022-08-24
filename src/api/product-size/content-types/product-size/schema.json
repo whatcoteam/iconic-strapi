@@ -21,6 +21,12 @@
       "relation": "manyToMany",
       "target": "api::product.product",
       "mappedBy": "product_sizes"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "min": 0
     }
   }
 }
